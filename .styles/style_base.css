@@ -1,0 +1,754 @@
+@charset "utf-8";
+
+@import url(style_font.css);
+
+/*基础样式*/
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+  font-family: zw;
+}
+
+p {
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 130%;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  text-indent: 2em;
+  duokan-text-indent: 2em;
+  word-break: break-all;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  clear: both;
+  display: block;
+  margin: 0.35em 0;
+}
+
+td {
+  padding: 3px 0;
+}
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 1em;
+  color: #221815;
+  background-color: #fcfaf7;
+  border-radius: 10px;
+}
+
+/*封面样式*/
+
+.cover {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center !important;
+}
+
+/*标题页相关*/
+
+.titlepage {
+  margin: 0.5em auto;
+  width: 25em;
+  max-width: 100%;
+  height: 30em;
+}
+
+.titlepage div {
+  margin: 0;
+  text-indent: 0;
+  duokan-text-indent: 0;
+  line-height: 1em;
+  vertical-align: middle;
+}
+
+/*简介及信息页相关*/
+
+.design-box {
+  margin: 20% 3% auto;
+  padding: 1em;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  border-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.design-box h1 {
+  margin: 1em auto;
+  padding: 0 4px;
+  font-family: fs;
+  font-size: 65%;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.design-box p {
+  margin-top: 1em;
+  font-family: fs;
+  font-size: 60%;
+  color: #333;
+  text-indent: 0;
+  duokan-text-indent: 0;
+  margin: 0.2em auto;
+  line-height: 1.2;
+}
+
+.design-box hr, .auth-box hr {
+  border-style: dashed;
+  border-width: 1px 0 0 0;
+  border-color: rgba(200, 200, 193, 0.15);
+}
+
+.intro {
+  font-family: fs;
+}
+
+.intro h1 {
+  font-family: fs;
+  font-weight: bold;
+  text-align: right;
+  text-indent: 0;
+  width: 1em;
+  font-size: 1.2em;
+  border-left: 1px solid maroon;
+  border-right: 1px solid maroon;
+  line-height: 140%;
+  padding: 1px;
+  color: maroon;
+  margin: 1em 1em 0.8em auto;
+}
+
+.intro p {
+  line-height: 1.4em;
+  margin: 0 auto 0.3em auto;
+  width: 98%;
+}
+
+.intro hr {
+  border-top: 0.3em solid #524186;
+  border-bottom: 0.1em solid #524186;
+  height: 0.2em;
+  margin: 9px 0 13px 0;
+}
+
+.auth-box {
+
+}
+
+.auth-title1 {
+  font-size: 0.8em;
+  font-weight: bold;
+  color: #333;
+  duokan-text-indent: 0;
+}
+
+.auth-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #333;
+  duokan-text-indent: 0;
+}
+
+.auth-box p {
+  color: #333;
+  font-size: 70%;
+  text-indent: 0;
+  duokan-text-indent: 0;
+}
+
+/*目录页样式*/
+
+.mulu {
+  text-indent: 0;
+  text-align: left;
+  line-height: 0.9em;
+  margin: 0.8em 0;
+}
+
+.contents {
+  text-indent: 0;
+  text-align: left;
+  padding: 0.5em 0 0.5em 0;
+}
+
+/*“目录”标题颜色*/
+
+.colorco {
+  color: #000;
+}
+
+/*目录页超链接样式*/
+
+.nodeco {
+  text-decoration: none;
+}
+
+/*目录页超链接颜色*/
+
+.colorg {
+  color: #000;
+}
+
+/*正文样式*/
+
+/*正文章节标题样式*/
+
+h1 {
+  font-size: 1.5em;
+  line-height: 120%;
+  text-align: center;
+  font-weight: bold;
+  font-family: title1;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+}
+
+h2 {
+  font-size: 1.3em;
+  line-height: 120%;
+  text-align: left;
+  font-weight: bold;
+  font-family: title1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  border-bottom: 0.1em solid #000;
+}
+
+h3 {
+  font-size: 0.95em;
+  line-height: 120%;
+  text-align: center;
+  text-indent: 0;
+  font-weight: bold;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+h4 {
+  font-size: 1.4em;
+  text-align: center;
+  line-height: 1.2em;
+  text-indent: 0;
+  font-weight: bold;
+  margin-top: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+h1.chapter-title {
+  margin-top: 50%;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-right: auto;
+  line-height: 120%;
+  font-size: 1.35em;
+  color: #151515;
+  text-align: center;
+}
+
+/*正文内数字小标题样式*/
+
+.littleTitle {
+  margin-left: 2.3em;
+  font-size: 1.2em;
+  font-family: num;
+}
+
+/*正文插图样式*/
+
+.kuan {
+  duokan-bleed: leftright;
+}
+
+.zhai {
+  duokan-bleed: lefttopright;
+}
+
+.illus {
+  text-indent: 0;
+  text-align: center;
+  duokan-bleed: leftright;
+}
+
+.illus img {
+  width: 100%;
+}
+
+/*上标样式*/
+
+/*上标注释写法：<ruby>注释<rt>NOTES</rt></ruby>*/
+
+ruby {
+  ruby-align: center;
+}
+
+ruby rt {
+  font-family: "DK-SYMBOL";
+  font-size: 0.55em;
+  text-align: center;
+}
+
+/*下标黑点着重号*/
+
+.zzh {
+  text-emphasis-style: filled dot;
+  text-emphasis-position: under right;
+  -webkit-text-emphasis-style: filled dot;
+  -webkit-text-emphasis-position: under right;
+  -epub-text-emphasis-style: filled dot;
+  -epub-text-emphasis-position: under right;
+}
+
+/*下划线*/
+
+em {
+  font-style: normal;
+  border-bottom-style: dashed;
+  border-color: #000;
+  border-width: 0.08em;
+}
+
+/*字体样式控制*/
+
+/*字体加粗*/
+
+.bold {
+  font-weight: bold;
+}
+
+/*字体高度*/
+
+.font03 {
+  font-size: 0.3em;
+}
+
+.font04 {
+  font-size: 0.4em;
+}
+
+.font05 {
+  font-size: 0.5em;
+}
+
+.font06 {
+  font-size: 0.6em;
+}
+
+.font07 {
+  font-size: 0.7em;
+}
+
+.font075 {
+  font-size: 0.75em;
+}
+
+.font08 {
+  font-size: 0.8em;
+}
+
+.font085 {
+  font-size: 0.85em;
+}
+
+.font09 {
+  font-size: 0.9em;
+}
+
+.font10 {
+  font-size: 1em;
+}
+
+.font11 {
+  font-size: 1.1em;
+}
+
+.font115 {
+  font-size: 1.15em;
+}
+
+.font12 {
+  font-size: 1.2em;
+}
+
+.font13 {
+  font-size: 1.3em;
+}
+
+.font14 {
+  font-size: 1.4em;
+}
+
+.font15 {
+  font-size: 1.5em;
+}
+
+.font16 {
+  font-size: 1.6em;
+}
+
+.font17 {
+  font-size: 1.7em;
+}
+
+.font18 {
+  font-size: 1.8em;
+}
+
+.font19 {
+  font-size: 1.9em;
+}
+
+.font20 {
+  font-size: 2em;
+}
+
+.font25 {
+  font-size: 2.5em;
+}
+
+.font30 {
+  font-size: 3em;
+}
+
+.font35 {
+  font-size: 3.5em;
+}
+
+.font40 {
+  font-size: 4em;
+}
+
+/*首行缩进值为0*/
+
+.in0 {
+  text-indent: 0;
+}
+
+/*文本居中*/
+
+.center {
+  text-align: center !important;
+  text-indent: 0;
+}
+
+/*文本居左*/
+
+.left {
+  text-align: left !important;
+  duokan-text-indent: 0;
+  text-indent: 0;
+}
+
+/*文本居右*/
+
+.right {
+  text-align: right !important;
+  text-indent: 0;
+}
+
+/*斜体的字体样式*/
+
+.italic {
+  font-style: italic;
+}
+
+/*倾斜的字体样式*/
+
+.oblique {
+  font-style: oblique;
+}
+
+/*印象色，用于制作者人名、章节标题等处，默认黑色。*/
+
+/*补充颜色写在下面，并注明用处*/
+
+/*字体颜色控制*/
+
+/*书名颜色，默认黑色。*/
+
+.colorc1 {
+  color: #000;
+}
+
+/*卷数颜色，默认黑色。*/
+
+.colorc2 {
+  color: #000;
+}
+
+.color1 {
+  color: #000;
+}
+
+/*元素控制样式*/
+
+/*td元素顶端对齐*/
+
+.tdtop {
+  vertical-align: top;
+}
+
+/*td元素底端对齐*/
+
+.tdbottom {
+  vertical-align: bottom;
+}
+
+/*td元素垂直居中对齐*/
+
+.tdmiddle {
+  vertical-align: middle;
+}
+
+/*td元素水平居中*/
+
+.tdcenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*元素自动分页*/
+
+.pagebreak {
+  page-break-inside: auto !important;
+}
+
+.pagebreakavoid {
+  page-break-inside: avoid !important;
+}
+
+/*元素宽度*/
+
+.w05 {
+  width: 0.5em;
+}
+
+.w07 {
+  width: 0.7em;
+}
+
+.w09 {
+  width: 0.9em;
+}
+
+.w10 {
+  width: 1em;
+}
+
+.w11 {
+  width: 1.1em;
+}
+
+.w26 {
+  width: 2.6em;
+}
+
+.w33 {
+  width: 3.3em;
+}
+
+.w37 {
+  width: 3.7em;
+}
+
+.w40 {
+  width: 4em;
+}
+
+.w44 {
+  width: 4.4em;
+}
+
+.w55 {
+  width: 5.5em;
+}
+
+.w60 {
+  width: 6em;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+/*浮动控制*/
+
+.fright {
+  float: right;
+}
+
+.fleft {
+  float: left;
+}
+
+.fcenter {
+  margin: auto;
+  text-align: center;
+}
+
+.cright {
+  clear: right;
+}
+
+.cleft {
+  clear: left;
+}
+
+.cboth {
+  clear: both;
+}
+
+/*弹出注释写法：兼容多看、掌阅、iBooks（掌阅需在META-INF中加入zhangyue-expansion.xml文件）*/
+
+/*
+注标：
+  <a class="duokan-footnote" epub:type="noteref" href="#note1" id="note_ref1"><sup><img alt="note" class="footnote" src="../Images/note.png" zy-footnote="注：这是注释"/></sup></a>
+
+注释：
+  <aside epub:type="footnote" id="note1">
+    <a href="#note_ref1"></a>
+
+    <ol class="duokan-footnote-content" style="list-style:none">
+      <li class="duokan-footnote-item" id="note1" value="1">注：这是注释</li>
+    </ol>
+  </aside>
+
+代码说明：
+1. 请将「href="#note1"」「id="note_ref1"」「id="note1"」「value="1"」中的数字修改为注释次数
+  例：第3个注释的该段代码为「href="#note3"」「id="note_ref3"」「id="note3"」「value="3"」
+2. 「注：」根据不同情况可以改为其它文字，例如译者名
+3. 请记得按照书的主题颜色选择注释的颜色，在.duokan-footnote-item里面调整注释文字的阴影颜色
+*/
+
+/*预设注释样式*/
+
+.footnote {
+  width: 10px;
+  vertical-align: super;
+}
+
+.duokan-footnote {
+  height: 1.2em !important;
+  width: auto;
+  border: 0;
+}
+
+.duokan-footnote-item {
+  text-indent: 0;
+  font-family: "vuui";
+  color: #000;
+  text-shadow: 0 0 0.3px #000;
+  /*上方调整注释文字的颜色&阴影*/
+  font-size: 0.9em;
+  text-align: left;
+}
+
+sup {
+  font-size: 0.75em;
+  line-height: 1.2;
+  vertical-align: super !important;
+}
+
+/*换行相关*/
+
+.breakall {
+  word-wrap: break-word;
+  word-break: break-all;
+  -webkit-word-break: break-all;
+  -epub-word-break: break-all;
+}
+
+.keepall {
+  word-break: keep-all;
+  white-space: nowrap;
+  -webkit-word-break: keep-all;
+  -epub-word-break: keep-all;
+}
+
+/*作者*/
+
+.zove {
+  font-size: 1.05em;
+  text-align: right;
+  font-weight: bold;
+  margin-right: 1em;
+}
+
+/*盒子样式*/
+
+.textbox {
+  border-style: solid;
+  border-color: #000;
+  padding: 4px 2px;
+  border-width: 2px;
+}
+
+.s-box {
+  border: solid 2px #EB5277;
+  border-radius: 10px;
+  background-color: #FFF;
+  width: 22em;
+  padding: 5px;
+  box-shadow: 1px 1px 2px #c7c7c7;
+}
+
+/*虚线样式*/
+
+.s-line {
+  border-top: 2px dotted #333;
+}
+
+.sline {
+  border-top: 1px dashed #000;
+  line-height: 1em;
+  margin: 1em 0 1em 0;
+}
+
+/*背景色*/
+
+.blue-bg {
+  background-color: #f8f9f9;
+}
+
+.bk {
+  background-color: #366145;
+}
+
+/*背景图*/
+
+.bki {
+  background-image: url(../Images/bki.jpg);
+  background-repeat: no-repeat;
+  background-position: middle center;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+/*旋转*/
+
+.rot {
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}

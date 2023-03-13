@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@import url(style_base.css);
+
+nav {
+    font-size: 0.8em;
+    font-weight: bold;
+    duokan-text-indent: 0;
+}
+
+.contents{text-indent: 0em;text-align: center;padding: 0.5em 0;color: #000;font-family:zt3;}
+.mulu{text-align: left;padding: 0.1em 0;margin: 0.2em 0 0 0;}
+
+a {
+    text-decoration: none;
+}

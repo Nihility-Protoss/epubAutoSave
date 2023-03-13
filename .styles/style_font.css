@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+@page {
+  margin-bottom: 5pt;
+  margin-top: 5pt;
+}
+
+/*字体样式*/
+
+/*注释*/
+
+@font-face {
+  font-family: "vuui";
+  src: url(../Fonts/vuui.ttf); 
+}
+
+.vuui {
+  font-family: vuui, serif;
+}
+
+/*标题一*/
+
+@font-face {
+  font-family: "title1";
+  src: url(../Fonts/title1.otf); 
+}
+
+.title1 {
+  font-family: title1, serif;
+}
+
+/*标题二*/
+
+@font-face {
+  font-family: "title2";
+  src: url(../Fonts/title2.ttf); 
+}
+
+.title2 {
+  font-family: title2, serif;
+}
+
+/*仿宋*/
+
+@font-face {
+  font-family: "fs";
+  src: url(../Fonts/fs.ttf); 
+}
+
+.fs {
+  font-family: fs, serif;
+}
+
+/*楷体*/
+
+@font-face {
+  font-family: "kt";
+  src: url(../Fonts/kt.ttf); 
+}
+
+.kt {
+  font-family: kt, serif;
+}
+
+/*黑体*/
+
+@font-face {
+  font-family: "ht";
+  src: url(../Fonts/fs.ttf); 
+}
+
+.ht {
+  font-family: ht, serif;
+}
+
+/*黑体加粗*/
+
+@font-face {
+  font-family: "htb";
+  src: url(../Fonts/htb.ttf); 
+}
+
+.htb {
+  font-family: htb, serif;
+}
+
+/*数字*/
+
+@font-face {
+  font-family: "num";
+  src: url(../Fonts/num.ttf); 
+}
+
+.num {
+  font-family: num, serif;
+}
+
+/*作者*/
+
+@font-face {
+  font-family: "zz";
+  src: url(../Fonts/zz.ttf); 
+}
+
+.zz {
+  font-family: zz, serif;
+}
+
+/*作者简介*/
+
+@font-face {
+  font-family: "auth";
+  src: url(../Fonts/title1.ttf); 
+}
+
+.auth {
+  font-family: auth, serif;
+}
+
+/*正文*/
+
+@font-face {
+  font-family: "zw";
+  src: url(../Fonts/zw.ttf); 
+}
+
+.zw {
+  font-family: zw, serif;
+}
+
+/*特殊符号*/
+
+@font-face {
+  font-family: "TS-Special";
+  src: url(../Fonts/special.ttf) format("truetype"), local("DK-SYMBOL"); 
+}
+
+.f-sp {
+  font-family: TS-Special, sans-serif;
+}
