@@ -22,7 +22,7 @@ from func_timeout import func_set_timeout
 author: Xierluo
 effect: 一键生成EPUB
 """
-
+Your_token = '{%22security_key%22:%22ffffeeeeddddccccbbbbaaaa99998888:000000:0%22}'
 EPUB_static = {
     "WebIndex": 1122344,
     "BookName": "我开始做死神的助手了",
@@ -263,13 +263,13 @@ class getAllData:
         useCoin_postData = {"is_encrypted": 0, "platform": "pc", "client": "web", "sign": "", "gz": 0,
                             "d": {"params": self.Web_Index_num, "goods_id": 1, "price": 10, "total_price": 10,
                                   "number": 1, "security_key": "e8795df6e20be1b1edc4c485ec095d2b:933835:0"}}
-        token = {'token': '{%22security_key%22:%22e8795df6e20be1b1edc4c485ec095d2b:933835:0%22}'}
+        token = {'token': Your_token}
         cookie = requests.utils.cookiejar_from_dict(token)
         cookie_token = {
             'name': 'token',
             'domain': 'www.lightnovel.us',
             'path': '/',
-            'value': '{%22security_key%22:%22e8795df6e20be1b1edc4c485ec095d2b:933835:0%22}'}
+            'value': Your_token}
 
         # # old session
         # session = requests.Session()
