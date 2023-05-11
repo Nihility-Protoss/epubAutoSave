@@ -6,7 +6,7 @@ from EPUB_Factory import EPUB_static, getAllData, createEPUB
 
 profile_ID = 358191
 series_ID = 2023
-
+Your_token = 'ffffeeeeddddccccbbbbaaaa99998888:000000:0'
 headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 '
                          '(KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36 android 9.9',
            'Referer': "https://www.lightnovel.us/",
@@ -20,7 +20,7 @@ def get_aidDict():
     while True:
         profile_postData = {"is_encrypted": 0, "platform": "pc", "client": "web", "sign": "", "gz": 0,
                             "d": {"uid": str(profile_ID), "page": pageID, "type": 1,
-                                  "security_key": "e8795df6e20be1b1edc4c485ec095d2b:933835:0"}}
+                                  "security_key": Your_token}}
         while True:
             try:
                 pageData = requests.post(url=profile_url, json=profile_postData, headers=headers).text
