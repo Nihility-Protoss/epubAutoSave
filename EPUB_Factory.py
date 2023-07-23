@@ -15,7 +15,6 @@ from ebooklib_xierluo import epub
 from collections import OrderedDict
 import undetected_chromedriver as uc
 import xml.etree.ElementTree as ETree
-from confuseFont import obfuscate_plus
 from func_timeout import func_set_timeout
 
 """
